@@ -8,7 +8,7 @@ from .MXEdge import MXEdge
 
 
 class Model(nn.Module):
-    def __init__(self,A,B,  device='cuda',num_fl_1d=5,batch_size = 64,beta=10):
+    def __init__(self,A,B,  device='cuda',num_fl_1d=5,batch_size = 100,beta=10):
         super(Model,self).__init__()
         self.A = A
         self.B = B
