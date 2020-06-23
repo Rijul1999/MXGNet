@@ -57,8 +57,8 @@ def main():
     parser = argparse.ArgumentParser(description='RAVEN test args')
     parser.add_argument('data', metavar='DIR',
                         help='path to dataset')
-    parser.add_argument('--batch-size', type=int, default=128, metavar='N',
-                        help='input batch size for training (default: 128)')
+    parser.add_argument('--batch-size', type=int, default=100, metavar='N',
+                        help='input batch size for training (default: 100)')
     parser.add_argument('--image-size', type=float, default=80, metavar='IMSIZE',
                         help='input image size (default: 80)')
     parser.add_argument('--no-cuda', action='store_true', default=False,
